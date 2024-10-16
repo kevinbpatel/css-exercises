@@ -1,0 +1,19 @@
+.class-1 { 
+    background-color: plum;
+    font-family: Verdana, DejuSans, sans-serif;  
+}
+
+.class-2 { 
+    font-size: 24px;
+}
+
+#one { 
+    color: blue;
+    font-size: 36px;
+}
+
+#four { 
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

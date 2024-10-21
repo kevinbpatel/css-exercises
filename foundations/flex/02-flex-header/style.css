@@ -1,6 +1,12 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+
+  padding: 22px; /* Forgot the add padding even though it looked fine*/
+  display: flex;
+  align-items: center;
+  /* flex-direction: row; - Didn't need this, done in ul*/ 
+  justify-content: space-between;
 }
 
 .logo {
@@ -14,6 +20,13 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /* margin: 20px; The solution adding padding ot the header instead of the list
+  padding: 10px; */
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px; /* forgot to add this */
+  /* flex-direction: row; - didn't need this, done in header*/
 }
 
 a {
@@ -22,4 +35,5 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  margin: 10px;
 }

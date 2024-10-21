@@ -12,6 +12,14 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+
+  display: flex;
+  justify-content: space-between; /* forgot this - don't understand this*/
+  /* flex-direction: row; Didn't need any of these - 
+  It's for the right and left class selectors 
+  align-items: center;
+  padding: 8px; */
+  gap: 16px;
 }
 
 .profile-image {
@@ -20,6 +28,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+
+  flex-shrink: 0;
 }
 
 .logo {
@@ -45,4 +55,24 @@ a {
 
 ul {
   list-style-type: none;
+
+  /* Everything correct here */
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 16px;
+}
+/* Don't need this
+.right-align { 
+  margin-left: auto;
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+} */
+
+/* use this instead */
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }

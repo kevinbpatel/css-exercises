@@ -24,3 +24,34 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+body { 
+  text-align: center;
+}
+
+.title { /* forgot the . in .title so it didn't actually do anything*/
+  margin-bottom: 32px; /* what does this do?*/ 
+}
+
+.items { 
+  display: flex;
+  /* align-items: center; Didn't need this. it didn't ask us to do center 
+  it on the page.  */
+  justify-content: center;
+  /* margin: 32px; */
+  gap: 52px;
+}
+
+.info { 
+  max-width: 200px;
+}
+
+
+/*
+
+The main thing i didn't get is to not be afraid to have selectors around a 
+bunch of element pairings. 
+Everything else was fine but I forgot I could have added margins 
+specifically to the bottom. 
+
+*/

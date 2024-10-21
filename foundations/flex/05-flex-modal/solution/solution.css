@@ -93,3 +93,18 @@ button.cancel {
 .text {
   margin-bottom: 16px;
 }
+
+
+/* 
+Main take aways here: 
+remember to use justify-content: space-between;
+much better solution then to use margin_right auto even though that 
+does have uses aswell. this i think is just in general a cleaner solution
+
+also forgot font weight
+
+remember that flex-direction: row is the DEFAULT
+
+
+
+*/

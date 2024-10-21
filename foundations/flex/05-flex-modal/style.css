@@ -67,3 +67,33 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* My shit */ 
+
+.modal { 
+  display: flex;
+  /* flex-direction: row; this is the default*/
+  padding: 16px;
+  gap: 16px;
+}
+
+.icon { 
+  flex-shrink: 0;
+  /* margin-right: 15px; not a bad alternative! */
+}
+
+.header { 
+  display: flex;
+  align-items: center;
+  /* Do this if you wanna align things to the start and the end*/
+  justify-content: space-between; 
+  /* flex-direction: row; THIS IS DEFAULT! */
+  margin-bottom: 5px;
+  font-size: large;
+  font-weight: 700; /* you can change the font weight!*/
+}
+
+
+.text { 
+  margin-bottom: 10px;
+}

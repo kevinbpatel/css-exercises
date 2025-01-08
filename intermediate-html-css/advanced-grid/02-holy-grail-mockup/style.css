@@ -89,3 +89,99 @@
   font-size: 13px;
   font-weight: normal;
 }
+
+
+/* my solution */
+
+.container { 
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
+}
+
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column: 1 / 3;
+}
+
+.logo { 
+  justify-self: flex;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+.menu { 
+  align-self: center;
+}
+
+.menu ul { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.nav ul { 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.nav { 
+  grid-column: 2 / 3;
+}
+
+.sidebar { 
+  display: grid;
+  grid-row: 2 / 4;
+  gap: 50px;
+}
+
+.sidebar li { 
+  display: grid;
+}
+
+.article { 
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.card { 
+  height: 200px;
+}
+
+li { 
+  display: grid;
+}
+
+.side-content, .photo{ 
+  display: grid;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer { 
+  display: grid;
+  grid-column: 1 / 3;
+}
